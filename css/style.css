@@ -1097,7 +1097,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* ------------------- Team Style ------------------ */
 .team {
-    padding: 60px 0px 40px 410px;
+    padding: 60px 0px 40px 0px;
 }
 
 .team .section-header {
