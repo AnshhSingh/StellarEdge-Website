@@ -357,6 +357,7 @@ h6 {
 }
 
 #mobile-nav-toggle {
+    visibility: hidden;
     position: fixed;
     right: 0;
     top: 0;
@@ -372,10 +373,12 @@ h6 {
 }
 
 #mobile-nav-toggle i {
+    visibility: hidden;
     color: #ffffff;
 }
 
 #mobile-nav {
+    visibility: hidden;
     position: fixed;
     top: 0;
     padding-top: 18px;
@@ -389,16 +392,19 @@ h6 {
 }
 
 #mobile-nav ul {
+    visibility: hidden;
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
 #mobile-nav ul li {
+    visibility: hidden;
     position: relative;
 }
 
 #mobile-nav ul li a {
+    visibility: hidden;
     color: #ffffff;
     font-size: 13px;
     text-transform: uppercase;
@@ -412,18 +418,23 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
+    visibility: hidden;
     color: #1dbf73;
 }
 
 #mobile-nav ul li li {
+    visibility: hidden;
     padding-left: 30px;
+
 }
 
 #mobile-nav ul li.menu-active a {
     color: #1dbf73;
+    visibility: hidden;
 }
 
 #mobile-nav ul .menu-has-children i {
+    visibility: hidden;
     position: absolute;
     top: -5px;
     right: 0;
@@ -435,18 +446,22 @@ h6 {
 
 #mobile-nav ul .menu-has-children i.ion-md-arrow-dropup {
     color: #1dbf73;
+    visibility: hidden;
 }
 
 #mobile-nav ul .menu-has-children i.dicon {
     display: none;
+    visibility: hidden;
 }
 
 #mobile-nav ul .menu-has-children li a {
     text-transform: none;
+    visibility: hidden;
 }
 
 #mobile-nav ul .menu-item-active {
     color: #1dbf73;
+    visibility: hidden;
 }
 
 #mobile-body-overly {
@@ -463,6 +478,7 @@ h6 {
 body.mobile-nav-active {
     overflow: hidden;
 }
+
 
 body.mobile-nav-active #mobile-nav {
     left: 0;
@@ -733,7 +749,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .call-to-action h3::before {
-    border-color: #ffffff;
+    border-color: #000000;
 }
 
 .call-to-action p {
@@ -750,7 +766,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: #ffffff;
+    background: #000000;
     transition: 0.3s;
 }
 
@@ -1395,16 +1411,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* ----------------- Footer Style ------------------ */
 .footer {
+    color: #000000;
     position: relative;
     padding: 0 0 30px 0;
     background: #000000;
+    @media only screen and (max-width: 768px) {
+        text-align: left;
+    }
 }
 
 .footer .footer-top {
+    
     align-items: end;
     background: #1dbf73;
-    padding: 60px 0px 30px 80px;
+    padding: 60px 15px 30px 0px;
     margin-left: 30px;
+    @media only screen and (max-width: 768px) {
+        margin-left: 0px;
+        padding: 30px 0px 0px 10px;
+    }
 }
 
 .footer .footer-top .footer-info,
@@ -1418,13 +1443,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 34px;
     padding: 2px 0 2px 0px;
     line-height: 1;
-    color: #ffffff;
+    color: #000000;
 }
 
 .footer .footer-top .footer-info p {
     font-size: 14px;
     line-height: 24px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .footer .footer-top .social-links a {
@@ -1450,7 +1475,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer .footer-top h4 {
     font-size: 16px;
     font-weight: 700;
-    color: #ffffff;
+    color: #000000;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 12px;
@@ -1465,23 +1490,24 @@ body.mobile-nav-active #mobile-nav-toggle {
     bottom: 0;
     height: 0;
     width: 100px;
-    border-bottom: 3px dashed #ffffff;
+    border-bottom: 3px dashed #1dbf73;
 }
 
 .footer .footer-top .footer-links ul {
     list-style: none;
     padding: 0;
+    color: #000000;
     margin: 0;
 }
 
 .footer .footer-top .footer-links ul i {
     padding-right: 8px;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
 }
 
 .footer .footer-top .footer-links ul li {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #000000;
     padding: 7px 0;
 }
 
@@ -1491,7 +1517,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer .footer-top .footer-links ul a {
     font-size: 14px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .footer .footer-top .footer-links ul a:hover {
@@ -1499,7 +1525,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer .footer-top .footer-contact p {
-    color: #ffffff;
+    color: #000000;
     line-height: 26px;
 }
 
@@ -1514,7 +1540,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 40%;
     padding: 6px 0;
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     background: #353535;
     transition: 0.3s;
     cursor: pointer;
@@ -1525,7 +1551,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer .footer-top .footer-newsletter p {
-    color: #ffffff;
+    color: #000000;
     font-size: 14px;
 }
 
