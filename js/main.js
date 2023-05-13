@@ -8,7 +8,7 @@
         speed: 40
     });
     $('.carousel').carousel({
-        interval: 2500
+        interval: 2400
       })
 
     // Mobile Navigation
