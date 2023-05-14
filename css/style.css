@@ -46,7 +46,7 @@ h6 {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     color: #353535;
-    margin: 0 0 15px 0;
+    margin: 0 15px 0;
     padding: 0;
 }
 
@@ -1114,9 +1114,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* ------------------- Team Style ------------------ */
 .team {
-    padding: 60px 0px 40px 0px;
+    padding: 60px 0px 40px 300px;
     background-color: #000;
 }
+@media only screen and (max-width: 600px) {
+    .team {
+        padding: 60px 0px 40px 0px;
+        background-color: #000;
+    }
+  }
 
 .team .section-header {
     margin-bottom: 15px;
@@ -1159,13 +1165,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 .team .card-title-wrap .card-title {
     text-align: center;
     font-size: 18px;
-    color: #353535;
+    color: #1dbf73;
 }
 
 .team .card-title-wrap .card-text {
     text-align: center;
     font-size: 14px;
-    color: #666666;
+    color: #169258;
 }
 
 .team .card:hover .card-title-wrap .card-title,
@@ -1186,7 +1192,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .card:hover .social-nav a {
-    color: #ffffff;
+    color: #1dbf73;
 }
 
 
@@ -1413,7 +1419,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-transform: uppercase;
     position: relative;
     padding-bottom: 12px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     letter-spacing: 1px;
 }
 
