@@ -99,10 +99,10 @@
     Host : "smtp.elasticemail.com",
     Username : "stellaredgeservices@gmail.com",
     Password : "B8A543E8EFF7D1AAD972DE163A072A647100",
-    To : 'stellaredgeservices@gmail.com',
-    From : document.getElementById("email").value,
+    To : "stellaredgeservices@gmail.com",
+    From : "anshsingh25bd@gmail.com",
     Subject :"Mail from contact form" ,
-    Body : "Name "+document.getElementById("name").value+"<br> MAIL:  "+document.getElementById("message").value+"<br> Phone no- "+document.getElementById("phone").value,
+    Body : "<b>Name: </b> "+document.getElementById("name").value+"<br><b>Mail ID: </b>"+document.getElementById("email").value+"<br> <b>Content: </b>"+document.getElementById("message").value+"<br><b>Phone no: </b>"+document.getElementById("phone").value,
 }).then(
   message => alert(message)
 );}
