@@ -52,9 +52,9 @@
 
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#top">Services</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#top">Services</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -102,7 +102,7 @@
     To : 'stellaredgeservices@gmail.com',
     From : document.getElementById("email").value,
     Subject :"Mail from contact form" ,
-    Body : "name"+document.getElementById("name").value+"<br> MAIL:"+document.getElementById("message").value+"<br> Phone no-"+document.getElementById("phone").value,
+    Body : "Name "+document.getElementById("name").value+"<br> MAIL:  "+document.getElementById("message").value+"<br> Phone no- "+document.getElementById("phone").value,
 }).then(
   message => alert(message)
 );}
@@ -127,24 +127,24 @@
                                 <h4>About Us</h4>
                                 <ul>
                                     <li><i class="ion-md-arrow-dropright"></i>
-                                        <a href="#top">Home</a></li>
+                                        <a href="index.html">Home</a></li>
                                     <li><i class="ion-md-arrow-dropright"></i>
-                                        <a href="#about">About us</a></li>
+                                        <a href="index.html#about">About us</a></li>
                                     <li><i class="ion-md-arrow-dropright"></i>
-                                        <a href="#top">Our services</a></li>
+                                        <a href="index.html#top">Our services</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-lg-4 col-md-6 footer-contact">
                                 <h4>Contact Us</h4>
                                 <p> Chennai,India<br>
-                                    <b>Phone:</b> +91 991 023 9916<br>
-                                    <b>Email:</b> stellaredgeservices@gmail.com<br>
+                                    <b>Phone:</b><a style="color: #000000;" href="tel:+91 991 023 9916"> +91 991 023 9916</a><br>
+                                    <b>Email:</b><a style="color: #000000;" href="mailto:stellaredgeservices@gmail.com"> stellaredgeservices@gmail.com</a><br>
                                 </p>
 
                                 <div class="social-links">
                                     <a
-                                        href="https://www.linkedin.com/company/stellaredge/""><i
+                                        href="https://www.linkedin.com/company/stellaredge/"><i
                                             class="ion-logo-linkedin"></i></a>
                                     <!-- <a href="https://freewebsitecode.com/"><i class="ion-logo-instagram"></i></a>
                         <a href="https://www.youtube.com/channel/UC9HlQRmKgG3jeVD_fBxj1Pw/videos"><i class="ion-logo-youtube"></i></a> -->
